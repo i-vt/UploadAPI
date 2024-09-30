@@ -1,6 +1,30 @@
 # UploadAPI
 Simple SpringBoot API to upload files with a UUID to validate the upload
 
+## Setup
+
+
+
+Upon bootup (bootRun) UUID's are supplied in the running terminal:
+```
+Initialized tokens: 
+UUID: 82b5ee60-c6dd-4f82-a102-c9a2ba357129
+UUID: f94867fd-bc11-465e-ae8e-d46f410af79a
+UUID: 6a19b543-6c64-40b1-af1a-196b33ac38dc
+UUID: ba4aac4f-5c22-456a-875c-12ec3766ca27
+UUID: 21134c2b-45d4-46c0-b9e3-f2a21a78d2e0
+[...]
+```
+
+Testing it with curl:
+```
+curl -X POST "http://localhost:8080/api/v1/upload"
+      -F "file=@/home/user/TESTFILES/test.txt"
+      -F "uuid=82b5ee60-c6dd-4f82-a102-c9a2ba357129"
+File uploaded successfully: test.txt
+```
+
+
 
 ## Disclaimer for "UploadAPI":
 
