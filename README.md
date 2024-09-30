@@ -1,5 +1,8 @@
 # UploadAPI
-Simple SpringBoot API to upload files with a UUID to validate the upload
+Simple SpringBoot API with following functions:
+- upload files with a UUID to validate the upload
+- one UUID = one 10MB upload.
+- UUIDs get "used" after one upload, rejecting further uploads
 
 ## Setup
 1. Verify dependencies are met (Java, Gradle, & etc.)
