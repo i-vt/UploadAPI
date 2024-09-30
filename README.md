@@ -2,9 +2,14 @@
 Simple SpringBoot API to upload files with a UUID to validate the upload
 
 ## Setup
+1. Verify dependencies are met (Java, Gradle, & etc.)
+2. Download the boilerplate code setup from [here](https://github.com/i-vt/SpringBootTemplate/)
+3. Copy-paste this repo files on top of the boilerplate files (replacing them if needed)
+4. Change default H2 password (optional disable H2 public page)
+5. Test it
+6. (Optional) ChatGPT whatever tf broke in the process
 
-
-
+## Testing
 Upon bootup (bootRun) UUID's are supplied in the running terminal:
 ```
 Initialized tokens: 
